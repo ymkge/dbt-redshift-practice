@@ -31,10 +31,12 @@ dbt run --profiles-dir .
 ```
 
 ## 4. 次回のステップ (TODO)
-- [ ] `dbt seed` を実行して初期データをロードする。
-- [ ] `models/example/` 内のサンプルモデルを実行し、DuckDB 内にテーブルが作成されるか確認する。
-- [ ] DuckDB 固有の機能（外部 Parquet ファイルの読み込み等）の検証。
+- [x] `dbt seed` を実行して初期データをロードする。
+- [x] `models/example/` 内のサンプルモデルを実行し、DuckDB 内にテーブルが作成されるか確認する。
+- [x] Staging層 (`stg_users`, `stg_orders`) および Mart層 (`fct_user_orders`) の構築を完了。
 
 ---
-*最終更新日: 2026-04-20*
+*最終更新日: 2026-04-29*
+
 *作成者: Gemini CLI*
+

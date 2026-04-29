@@ -38,7 +38,7 @@ dbt_duckdb_practice:
   outputs:
     dev:
       type: duckdb
-      path: /Users/ymto/Documents/git/dbt-duckdb-practice/dbt_project/dev.duckdb
+      path: dbt_project/dev.duckdb
       threads: 4
   target: dev
 ```
@@ -58,10 +58,9 @@ dbt debug
 - `dbt docs serve`: ドキュメントの表示
 
 ## 4. 学習ロードマップ（Todo）
-- [ ] `dbt seed` でサンプルデータをロード
-- [ ] `sources.yml` の定義
-- [ ] Staging層 / Mart層の構築
-- [ ] DuckDB固有の機能（S3/Parquet読み込みなど）の試行
+- [x] `dbt seed` でサンプルデータをロード
+- [x] `sources.yml` の定義
+- [x] Staging層 / Mart層の構築
 
 ## 5. 参考リソース
 - [dbt-duckdb Adapter Documentation](https://github.com/jwills/dbt-duckdb)

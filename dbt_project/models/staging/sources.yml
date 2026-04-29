@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: main
+    description: "The main schema in DuckDB where seeds are loaded."
+    tables:
+      - name: raw_users
+        description: "Raw user data loaded from CSV."
+      - name: raw_orders
+        description: "Raw order data loaded from CSV."

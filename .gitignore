@@ -10,6 +10,10 @@ dbt_packages/
 dbt_modules/
 logs/
 
+# DuckDB
+*.duckdb
+*.duckdb.wal
+
 # macOS
 .DS_Store
 
